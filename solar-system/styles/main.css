@@ -1,0 +1,29 @@
+body {
+	font-family: Verdana, sans-serif;
+}
+
+main {
+	float: left;
+	height: 700px;
+	position: relative;
+	width: 1000px;
+}
+
+main > canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+main > img {
+	position: absolute;
+	top: calc(50% - 50px);
+	left: calc(50% - 50px);
+	z-index: 2;
+}
+
+aside {
+	float: left;
+	width: 200px;
+}
